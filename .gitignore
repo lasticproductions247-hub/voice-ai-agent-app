@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output — the compiled bundle is committed under dist/ on purpose
+# (single-file deliverable), but caches stay ignored.
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Misc
+*.local
+.cache/
+.vite/
